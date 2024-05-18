@@ -1,5 +1,5 @@
 
- .container {
+ .container .a{
     position: center;
     max-width: auto;
     margin-left: auto;
@@ -47,8 +47,12 @@
     font-size: 1rem;
     color: #6b7280;
   }
-   
   
+  .card-link {
+    text-decoration: none; 
+    color: inherit; /* Inherits color from the parent */
+}
+
    @media screen and (max-width: 768px) {
     .project-cards {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
